@@ -10,11 +10,11 @@ $ tnpm install
 ## run server
 
 ```
-$ npm start
+ fie start
 ```
 
 ## build file
 
 ```
-$ npm run build
+ fie build
 ```
