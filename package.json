@@ -1,0 +1,35 @@
+{
+  "name": "fusion-demo",
+  "tnpm": {
+    "mode": "npminstall"
+  },
+  "scripts": {
+    "start": "fie open | webpack-dev-server --config ./webpack.config.js --port 3000",
+    "open": "fie open",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "@alife/next": "^0.4.5",
+    "react": "^15.3.0",
+    "react-addons-transition-group": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "@ali/sass-loader": "^3.2.1",
+    "@alife/babel-preset-fusion": "^0.2.2",
+    "babel-core": "^6.17.0",
+    "babel-loader": "~6.2.5",
+    "babel-plugin-transform-object-assign": "~6.5.0",
+    "babel-preset-es2015": "~6.6.0",
+    "babel-preset-react": "~6.5.0",
+    "babel-preset-stage-0": "~6.5.0",
+    "extract-text-webpack-plugin": "~1.0.1",
+    "node-sass": "^3.7.0",
+    "open": "~0.0.5",
+    "raw-loader": "^0.5.1",
+    "style-loader": "~0.13.1",
+    "webpack": "~1.12.14",
+    "webpack-dev-server": "~1.14.1",
+    "webpack-livereload-plugin": "^0.8.2"
+  }
+}
